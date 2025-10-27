@@ -3,18 +3,22 @@ package com.pluralsight;
 import java.util.ArrayList;
 
 public class Dealership {
+    // instantiating the objects for the dealership class (name, address, and phone)
     private String name;
     private String address;
     private String phone;
 
-    public static ArrayList<Vehicle> vehicle = new ArrayList<>();
+    // instantiating the arraylist
+    public static ArrayList<Vehicle> vehicleL = new ArrayList<>();
 
+    // generated the constructor method for each of the objects
     public Dealership(String name, String address, String phone) {
         this.name = name;
         this.address = address;
         this.phone = phone;
     }
 
+    // generated both getter and setter methods for each of the objects
     public String getName() {
         return name;
     }
@@ -39,6 +43,7 @@ public class Dealership {
         this.phone = phone;
     }
 
+    // greating a method that will search for the information by the various types of vehicle information
     public static void getVehiclesByPrice(){
 
     }
